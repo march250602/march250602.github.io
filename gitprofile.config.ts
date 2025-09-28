@@ -40,7 +40,7 @@ const CONFIG = {
   social: {
     linkedin: 'ratchanon-pawanja',
     researchGate: 'Ratchanon-Pawanja',
-    website: 'https://www.arifszn.com',
+    website: 'https://march250602.github.io/',
     phone: '0928388730',
     email: 'march250602@gmail.com',
   },
@@ -155,13 +155,13 @@ const CONFIG = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+  // footer: `Made with <a 
+  //     class="text-primary" href="https://github.com/arifszn/gitprofile"
+  //     target="_blank"
+  //     rel="noreferrer"
+  //   >GitProfile</a> and ❤️`,
 
-  enablePWA: true,
+  // enablePWA: true,
 };
 
 export default CONFIG;
