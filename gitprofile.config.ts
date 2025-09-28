@@ -14,7 +14,7 @@ const CONFIG = {
     github: {
       display: true, // Display GitHub projects?
       header: 'Github Projects',
-      mode: 'automatic', // Mode can be: 'automatic' or 'manual'
+      mode: 'manual', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
         limit: 8, // How many projects to display.
@@ -25,139 +25,108 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
-      },
+        projects: ['march250602/Rps_test','march250602/My-Event-Webapp','march250602/Bitkub-Crypto-currency-enchange-ETL','march250602/Yellow-Taxi-Data-Analytics','march250602/Covid19-tweet-sentiment-analysis'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+      }
     },
     external: {
       header: 'My Projects',
       // To hide the `External Projects` section, keep it empty.
       projects: [
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
+        
       ],
     },
   },
-  seo: { title: 'Portfolio of Ariful Alam', description: '', imageURL: '' },
+  seo: { title: 'Portfolio of Ratchanon Pawanja', description: '', imageURL: '' },
   social: {
-    linkedin: 'ariful-alam',
-    x: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
-    researchGate: '',
-    facebook: '',
-    instagram: '',
-    reddit: '',
-    threads: '',
-    youtube: '', // example: 'pewdiepie'
-    udemy: '',
-    dribbble: '',
-    behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    stackoverflow: '', // example: '1/jeff-atwood'
-    discord: '',
-    telegram: '',
+    linkedin: 'ratchanon-pawanja',
+    researchGate: 'Ratchanon-Pawanja',
     website: 'https://www.arifszn.com',
-    phone: '',
-    email: 'arifulalamszn@gmail.com',
+    phone: '0928388730',
+    email: 'march250602@gmail.com',
   },
   resume: {
-    fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl:'https://drive.google.com/file/d/1_A0aXGYv7El9BV8Z-y9M6AyUqxZSlMnk/view?usp=sharing'
+       // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
+    'HTML',
+    'CSS',
     'JavaScript',
     'React.js',
     'Node.js',
     'Nest.js',
     'MySQL',
     'PostgreSQL',
+    'MongoDB',
     'Git',
     'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'Python',
+    'Django',
+    'GCP',
+    'AWS',
+    'RabbitMQ',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
+      company: 'Algoma University',
+      position: 'RA & Web developer',
+      from: 'September 2024',
+      to: 'August 2025',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'BizBridge',
+      position: 'Backend Developer (Intern)',
+      from: 'September 2024',
+      to: 'August 2025',
+      
+    },
+     {
+      company: 'Yip IN Tsoi',
+      position: 'Data Engineer',
+      from: 'October 2022',
+      to: 'June 2023',
+      
     },
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
+      name: 'Cloud Computing Technologies',
+      body: 'Postgraduate Certificate, George Brown College, Canada',
+      
+      year: 'August 2024',
       link: 'https://example.com',
     },
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'Algoma University, Canada',
+      degree: 'Master of Computer Science',
+      from: 'September 2024',
+      to: 'August 2025',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Silpakorn University, Thailand',
+      degree: 'Bachelor of Computer Science',
+      from: 'January 2018',
+      to: 'March 2022',
     },
   ],
   publications: [
     {
-      title: 'Publication Title',
-      conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      title: 'The Passwordless Authentication with Passkey Technology from an Implementation Perspective',
+      conferenceName: '2nd IEEE/ACISInternational Conference on Software Engineering, ArtiﬁcialIntelligence, Networking and Parallel/Distributed Computing(SNPD2025-Summer IV)',
+      authors: 'Lien Tran, Boyuan Zhang, Ratchanon Pawanja, and Rashid Hussain Khokhar',
+      link: 'https://www.researchgate.net/publication/394540335_The_Passwordless_Authentication_with_Passkey_Technology_from_an_Implementation_Perspective',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-    {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
+        'With the rise of sophisticated authentication by-pass techniques, passwords are no longer considered a reliablemethod for securing authentication systems. In recent years,new authentication technologies have shifted from traditionalpassword-based logins to passwordless security. Among these,Time-Based One-Time Passwords (TOTP) remain one of themost widely used mechanisms, while Passkeys are emergingas a promising alternative with growing adoption. This paperhighlights the key techniques used during the implementationof the authentication system with Passkey technology. It alsosuggests considerations for integrating components during systemdevelopment to ensure that users can securely access theiraccounts with minimal complexity, while still meeting the require-ments of a robust authentication system that balances security,usability, and performance. Additionally, by examining TOTPand Passkey mechanisms from an implementation perspective,this work not only addresses major security concerns such aspassword leaks, phishing attacks, and susceptibility to brute-force attacks, but also evaluates the feasibility and effectivenessof these mechanisms in real-world implementations. This paperdemonstrates the superior security of Passkey technology and itspotential for broader adoption in secure authentication systems.Index Terms—Passkey, TOTP, OAuth2, Rate Limiting, Two-Factor Authentication (2FA',
+    }
   ],
   // Display articles from your medium or dev account. (Optional)
-  blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 2, // How many articles to display. Max is 10.
-  },
+  // blog: {
+  //   source: 'dev', // medium | dev
+  //   username: 'arifszn', // to hide blog section, keep it empty
+  //   limit: 0, // How many articles to display. Max is 10.
+  // },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
@@ -181,40 +150,7 @@ const CONFIG = {
     themes: [
       'light',
       'dark',
-      'cupcake',
-      'bumblebee',
-      'emerald',
-      'corporate',
-      'synthwave',
-      'retro',
-      'cyberpunk',
-      'valentine',
-      'halloween',
-      'garden',
-      'forest',
-      'aqua',
-      'lofi',
-      'pastel',
-      'fantasy',
-      'wireframe',
-      'black',
-      'luxury',
-      'dracula',
-      'cmyk',
-      'autumn',
-      'business',
-      'acid',
-      'lemonade',
-      'night',
-      'coffee',
-      'winter',
-      'dim',
-      'nord',
-      'sunset',
-      'caramellatte',
-      'abyss',
-      'silk',
-      'procyon',
+      
     ],
   },
 
@@ -229,3 +165,4 @@ const CONFIG = {
 };
 
 export default CONFIG;
+
