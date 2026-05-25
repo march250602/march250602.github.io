@@ -32,7 +32,19 @@ const CONFIG = {
       header: 'My Projects',
       // To hide the `External Projects` section, keep it empty.
       projects: [
-        
+        {
+          title: 'Coach Naen',
+          description:
+            'Calories tracker LIFF and LINE chatbot for the Thai market. Built and launched an AI-powered nutrition tracking SaaS using TypeScript, Next.js, Supabase, PostgreSQL, and Vercel.',
+          imageUrl: '/coach-naen-logo.png',
+          link: 'https://line.me/R/ti/p/@619vzabj',
+        },
+        {
+          title: 'BG Remover Web App',
+          description:
+            'Background remover web application built with Next.js, focused on a simple image upload flow and fast browser-based user experience.',
+          link: 'https://bgremover-th.site/th',
+        },
       ],
     },
   },
@@ -41,7 +53,7 @@ const CONFIG = {
     linkedin: 'ratchanon-pawanja',
     researchGate: 'Ratchanon-Pawanja',
     website: 'https://march250602.github.io/',
-    phone: '0928388730',
+    phone: '+66928388730',
     email: 'march250602@gmail.com',
   },
   resume: {
@@ -52,32 +64,49 @@ const CONFIG = {
     'HTML',
     'CSS',
     'JavaScript',
+    'TypeScript',
     'React.js',
+    'Next.js',
     'Node.js',
-    'Nest.js',
-    'MySQL',
+    'REST API',
+    'SQL',
     'PostgreSQL',
-    'MongoDB',
+    'Firebase',
+    'Supabase',
+    'Vector DB',
     'Git',
     'Docker',
     'Python',
-    'Django',
+    'Java',
+    'ETL',
+    'Data Validation',
+    'NLP',
+    'AI/ML',
     'GCP',
-    'AWS',
-    'RabbitMQ',
+    'Google Cloud Functions',
+    'Vercel',
+    'Control-M',
+    'RAG',
   ],
   experiences: [
     {
+      company: 'Coach Naen',
+      position: 'Creator & Founder',
+      from: 'August 2025',
+      to: 'Present',
+      companyLink: 'https://line.me/R/ti/p/@619vzabj',
+    },
+    {
       company: 'Algoma University',
-      position: 'RA & Web developer',
+      position: 'Graduate Research Assistant & Web Developer (Part Time)',
       from: 'September 2024',
       to: 'August 2025',
     },
     {
       company: 'BizBridge',
       position: 'Backend Developer (Intern)',
-      from: 'September 2024',
-      to: 'August 2025',
+      from: 'May 2024',
+      to: 'August 2024',
       
     },
      {
@@ -90,23 +119,27 @@ const CONFIG = {
   ],
   certifications: [
     {
-      name: 'Cloud Computing Technologies',
-      body: 'Postgraduate Certificate, George Brown College, Canada',
-      
-      year: 'August 2024',
-      link: 'https://example.com',
+      name: 'IELTS General Training',
+      body: 'Overall 7.0',
+      year: 'English proficiency',
     },
   ],
   educations: [
     {
       institution: 'Algoma University, Canada',
-      degree: 'Master of Computer Science',
+      degree: 'Master of Computer Science, GPA: 3.78',
       from: 'September 2024',
       to: 'August 2025',
     },
     {
+      institution: 'George Brown College, Canada',
+      degree: 'Postgraduate Certificate - Cloud Computing Technologies, GPA: 3.98',
+      from: 'September 2023',
+      to: 'August 2024',
+    },
+    {
       institution: 'Silpakorn University, Thailand',
-      degree: 'Bachelor of Computer Science',
+      degree: 'Bachelor of Science - Computer Science, GPA: 3.69, First Class Honor',
       from: 'January 2018',
       to: 'March 2022',
     },
@@ -119,7 +152,13 @@ const CONFIG = {
       link: 'https://www.researchgate.net/publication/394540335_The_Passwordless_Authentication_with_Passkey_Technology_from_an_Implementation_Perspective',
       description:
         'With the rise of sophisticated authentication by-pass techniques, passwords are no longer considered a reliablemethod for securing authentication systems. In recent years,new authentication technologies have shifted from traditionalpassword-based logins to passwordless security. Among these,Time-Based One-Time Passwords (TOTP) remain one of themost widely used mechanisms, while Passkeys are emergingas a promising alternative with growing adoption. This paperhighlights the key techniques used during the implementationof the authentication system with Passkey technology. It alsosuggests considerations for integrating components during systemdevelopment to ensure that users can securely access theiraccounts with minimal complexity, while still meeting the require-ments of a robust authentication system that balances security,usability, and performance. Additionally, by examining TOTPand Passkey mechanisms from an implementation perspective,this work not only addresses major security concerns such aspassword leaks, phishing attacks, and susceptibility to brute-force attacks, but also evaluates the feasibility and effectivenessof these mechanisms in real-world implementations. This paperdemonstrates the superior security of Passkey technology and itspotential for broader adoption in secure authentication systems.Index Terms—Passkey, TOTP, OAuth2, Rate Limiting, Two-Factor Authentication (2FA',
-    }
+    },
+    {
+      title: 'Interpretable Deep Learning for Automated MRI-Based Brain Tumor Diagnosis Using MobileNet and DenseNet',
+      journalName: 'Academic Project',
+      description:
+        'Academic project using deep learning models for medical image analysis, focused on automated MRI-based brain tumor diagnosis.',
+    },
   ],
   // Display articles from your medium or dev account. (Optional)
   // blog: {
