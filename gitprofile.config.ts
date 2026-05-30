@@ -33,6 +33,12 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
+          title: 'HomePartner360 LINE CRM',
+          description:
+            'A simple CRM for an air-conditioner cleaning business. Customers chat in LINE as usual, while the system collects messages, reads important details with AI, calculates the service price, tracks booking status, reminds the team to follow up, and shows new leads on a real-time dashboard.',
+          link: 'https://github.com/march250602/lead-collector-homepartner-360',
+        },
+        {
           title: 'Coach Naen',
           description:
             'Calories tracker LIFF and LINE chatbot for the Thai market. Built and launched an AI-powered nutrition tracking SaaS using TypeScript, Next.js, Supabase, PostgreSQL, and Vercel.',
@@ -197,4 +203,3 @@ const CONFIG = {
 };
 
 export default CONFIG;
-
